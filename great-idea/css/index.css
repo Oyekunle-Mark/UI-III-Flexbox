@@ -185,7 +185,6 @@ header .logo {
 .banner {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
   margin-top: 3%;
 }
 
@@ -257,6 +256,9 @@ footer .copyright {
 }
 
 /* the styling of the services page */
+ #services {
+	 margin-bottom: 20px;
+ }
 
 .web-banner {
 	display: flex;
@@ -265,6 +267,7 @@ footer .copyright {
 
 .web-banner img {
 	width: 100%;
+	margin-top: 0;
 }
 
 .web-banner div h2 {
@@ -319,7 +322,7 @@ footer .copyright {
 }
 
 .tail-notes div ul {
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 .tail-notes div ul li {
