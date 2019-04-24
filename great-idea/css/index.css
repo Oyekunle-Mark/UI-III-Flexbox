@@ -153,34 +153,50 @@ h5 {
 
 .container {
   margin: 0 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   margin: 10px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 header nav {
-  display: inline-block;
-  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 11px;
 }
 
 header nav a {
   color: gray;
   text-decoration: none;
-  margin-right: 8%;
 }
 
 header .logo {
-  width: 18%;
-  vertical-align: middle;
+  width: 130px;
+  height: 30px;
+  margin: 5px 0 0 auto;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 3%;
 }
 
 .banner div {
-  display: inline-block;
-  width: 60%;
-  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 0 10%;
   text-align: center;
-  margin-top: 90px;
+  width: 40%;
 }
 
 .banner div h1 {
@@ -188,13 +204,8 @@ header .logo {
 }
 
 .banner div p {
-  display: inline-block;
   border: 1px solid black;
   padding: 8px 50px 8px 50px;
-}
-.banner img {
-  width: 35%;
-  display: inline-block;
 }
 
 hr {
@@ -202,8 +213,17 @@ hr {
   color: black;
 }
 
+main {
+  display: flex;
+	flex-direction: column;
+	line-height: 20px;
+}
+
+.section-in-2 {
+  display: flex;
+}
+
 .section-in-2 div {
-  display: inline-block;
   width: 47%;
   margin-right: 2%;
 }
@@ -213,8 +233,11 @@ main .middle-img {
   margin: 50px 0 50px 0;
 }
 
+.section-in-3 {
+  display: flex;
+}
+
 main .section-in-3 div {
-  display: inline-block;
   width: 31%;
   margin-right: 2%;
 }
